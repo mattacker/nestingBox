@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "############# make_thumb ######################" >> /var/log/nistkasten.log
+echo "starte Thumbnail erzeugen..." >> /var/log/nistkasten.log
+convert "$2" -resize 250x "/home/pi/nistkasten/public/birdimage/thumbs/$1"
+echo "Konvertierung abgeschlossen" >> /var/log/nistkasten.log
+echo "Starte Push an Server..." >> /var/log/nistkasten.log
+curl http://localhost:80/pushimage/$1
+echo "Push an Server ausgefuehrt" >> /var/log/nistkasten.log

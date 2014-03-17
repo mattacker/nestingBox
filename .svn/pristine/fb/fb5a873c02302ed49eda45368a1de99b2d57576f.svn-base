@@ -1,0 +1,67 @@
+extends ../layout
+block body
+	br
+	div.row
+		div.col-lg-4
+			div.panel.panel-primary
+				div.panel-heading Speicherverwaltung
+				table.table.table-striped
+					tr
+						th Anzahl der Aufnahmen
+						td #{picCount}
+					tr
+						th Verwendeter Speicherplatz
+						td #{usedMemory} MB
+					tr
+						th Noch verfügbarer Speicherplatz
+						td 50 MB
+		div.col-lg-4
+			div.panel.panel-primary
+				div.panel-heading Bewegungserkennung
+				table.table.table-striped
+					tr
+						th Ein-/Ausschalten
+						td
+							div.btn-group
+								button(id="detectionOn", type="button", class=(detectionState)?'btn-success active':'btn-default', onclick="toggleDetection()").btn Ein
+								button(id="detectionOff",type="button", class=(!detectionState)?'btn-danger active':'btn-default', onclick="toggleDetection()").btn Aus
+					tr
+						th Auflösung
+						td #{resolution}
+					tr
+						th Threshold
+						td #{threshold}
+		div.col-lg-4
+			div.panel.panel-primary
+				div.panel-heading Raspberry Pi Status
+				table.table.table-striped
+					tr
+						th Temperatur
+						td #{temp}
+
+	script(type='text/javascript').
+		var detectionState = #{detectionState};
+		function toggleDetection() {
+			var detectionString = ''
+			if(detectionState) {
+				document.getElementById('detectionOn').className = 'btn btn-default';
+				document.getElementById('detectionOff').className = 'btn btn-danger active';
+				detectionString = 'pause';
+			}else{
+				document.getElementById('detectionOn').className = 'btn btn-success active';
+				document.getElementById('detectionOff').className = 'btn btn-default';
+				detectionString = 'start';
+			}
+			detectionState = !detectionState
+			var xmlhttp;
+			if (window.XMLHttpRequest){
+				// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp=new XMLHttpRequest();
+			}
+			else{
+				// code for IE6, IE5
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.open("GET","http://#{serverIp}:8080/0/detection/"+detectionString, true);
+			xmlhttp.send();
+		}

@@ -1,0 +1,8 @@
+extends ../layout
+block body
+	div.container.marketing
+		div.row
+			div.col-md-12
+				h2.featurette-heading Lives
+				div.text-center
+					img(src="http://localhost:8081", alt="...", width="700", height="500").img-thumbnail

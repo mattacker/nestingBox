@@ -1,0 +1,39 @@
+/**
+ * Picture
+ *
+ * @module      :: Model
+ * @description :: A short summary of how this model works and what it represents.
+ * @docs		:: http://sailsjs.org/#!documentation/models
+ */
+
+module.exports = {
+
+  attributes: {
+      id: 'integer',
+      camera: 'integer',
+      filename: 'string',
+      frame: 'integer',
+      file_type: 'integer',
+      time_stamp: 'datetime',
+      text_event: 'datetime',
+      isBackuped: 'integer',
+      fullFileName: function() {
+          var extension;
+          switch(this.file_type) {
+              case 1:
+              case 2:
+                  extension = 'jpg';
+                  break;
+              case 8:
+                  extension = 'ogv';
+                  break;
+          }
+          return this.filename + '.' + extension;
+      }
+  	/* e.g.
+  	nickname: 'string'
+  	*/
+    
+  }
+
+};

@@ -1,0 +1,58 @@
+doctype html
+html
+	head
+		// A few key dependencies, linked in order
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		meta(name="description", content="")
+		meta(name="author", content="")
+		//link(rel="shortcut icon", href="../../assets/ico/favicon.ico")
+		title=sails.config.websiteTitle
+
+		link(rel="stylesheet", href="/library/bootstrap/css/bootstrap.min.css")
+		link(rel="stylesheet", href="/library/bootstrap/css/carousel.css")
+		link(rel="stylesheet", href="/library/fancybox/jquery.fancybox-1.3.4.css")
+		link(rel="stylesheet", href="/styles/timeline.css")
+		link(rel="stylesheet", href="/styles/style.css")
+
+
+		body
+			div.blog-masthead
+				div.container
+					nav.blog-nav
+						a(href="/", class=(req.target.controller == 'index' && req.target.action == 'index')?'active':'').blog-nav-item
+							span.glyphicon.glyphicon-camera
+							|  Bilder
+						a(href="/videos", class=(req.target.controller == 'index' && req.target.action == 'videos')?'active':'').blog-nav-item
+							span.glyphicon.glyphicon-camera
+							|  Videos
+						a(href="/livestream", class=(req.target.controller == 'index' && req.target.action == 'livestream')?'active':'').blog-nav-item
+							span.glyphicon.glyphicon-facetime-video
+							|  Live Stream
+						a(href="/einstellungen", class=(req.target.controller == 'settings' && req.target.action == 'index')?'active':'').blog-nav-item
+							span.glyphicon.glyphicon-cog
+							|  Einstellungen
+					if (!req.user)
+						form(action="/login", method="post", role="form").navbar-form.navbar-right.visible-lg
+							div.form-group
+								input(type="text",name="username", placeholder="Benutzername").form-control
+							div.form-group
+								input(type="password", name="password", placeholder="Passwort").form-control
+							button(type="submit").btn.btn-success Anmelden
+					else
+						a(href="/logout", style="margin-top: 3px;").pull-right
+							button(type="submit").btn.btn-danger Logout
+			div.container
+				block body
+			audio(src="audio/message.mp3" preload="auto")#birdMessage
+	script(type="text/javascript", src="https://code.jquery.com/jquery-1.9.0.min.js")
+	script(type="text/javascript", src="/library/bootstrap/js/bootstrap.min.js")
+	// Bring in the socket.io client
+	script(type="text/javascript", src="/js/socket.io.js")
+	// then beef it up with some convenience logic for talking to Sails.js'
+	script(type="text/javascript", src="/js/sails.io.js")
+	// listen on socket.io for incoming messages
+	script(type="text/javascript", src="/js/app.js")
+	block script
+

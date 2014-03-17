@@ -1,0 +1,15 @@
+extends ../layout
+block body
+		h1 Login
+			small Meisenkasten
+		form(action="/login", method="post", role="form")
+			div.form-group
+				div.input-group
+					span.input-group-addon @
+					input(type="text",name="username", placeholder="Benutzername").form-control
+			div.form-group
+				input(type="password", name="password", placeholder="Passwort").form-control
+			input(type="submit", value="Anmelden").btn.btn-default
+
+	script(type='text/javascript', src='/library/jquery-1.10.2.min.js')
+	script(type='text/javascript', src='/library/bootstrap/js/bootstrap.min.js')

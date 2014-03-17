@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="2ca7b77b-94d7-480d-9804-01ee579f3674" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/style.css" afterPath="$PROJECT_DIR$/assets/styles/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="nistkasten.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="nistkasten" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="54" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="2618">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="3" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="3417">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/home/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="103" selection-start="36302" selection-end="36302" vertical-scroll-proportion="-16.52" vertical-offset="1814" max-vertical-offset="4760">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="19" selection-start="482" selection-end="482" vertical-scroll-proportion="0.5674891" vertical-offset="136" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/controllers/SettingsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="21" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2822">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Picture.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/models/Picture.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="19" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/settings/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-18.4" vertical-offset="220" max-vertical-offset="1224">
+              <folding>
+                <marker date="1393505992895" expanded="true" signature="1204:1414" placeholder="{...}" />
+                <marker date="1393505992895" expanded="true" signature="1414:1611" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/local.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="42" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PictureController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/controllers/PictureController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/views/home/aktuell.jade" />
+        <option value="$PROJECT_DIR$/config/bootstrap.js" />
+        <option value="$PROJECT_DIR$/assets/library/fancybox/jquery.fancybox-1.3.4.js" />
+        <option value="$PROJECT_DIR$/views/home/livestream.jade" />
+        <option value="$PROJECT_DIR$/config/adapters.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/api/controllers/FileController.js" />
+        <option value="$PROJECT_DIR$/config/local.js" />
+        <option value="$PROJECT_DIR$/assets/styles/timeline.css" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/api/controllers/PictureController.js" />
+        <option value="$PROJECT_DIR$/api/controllers/IndexController.js" />
+        <option value="$PROJECT_DIR$/config/routes.js" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/views/settings/index.jade" />
+        <option value="$PROJECT_DIR$/api/models/Picture.js" />
+        <option value="$PROJECT_DIR$/api/controllers/SettingsController.js" />
+        <option value="$PROJECT_DIR$/views/home/index.jade" />
+        <option value="$PROJECT_DIR$/assets/styles/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nistkasten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mattacker\PhpstormProjects\nistkasten\public\nistkasten\normal" />
+      <recent name="C:\Users\mattacker\PhpstormProjects\nistkasten\public\nistkasten\thumbs" />
+      <recent name="C:\Users\mattacker\PhpstormProjects\nistkasten\assets\library\bootstrap\css" />
+      <recent name="C:\Users\mattacker\PhpstormProjects\nistkasten\assets\library" />
+      <recent name="C:\Users\mattacker\PhpstormProjects\nistkasten\public\nistkasten" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mattacker\PhpstormProjects\nistkasten\assets\library\bootstrap\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\mattacker\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\mattacker\PhpstormProjects\nistkasten" />
+          <option name="myCopyRoot" value="C:\Users\mattacker\PhpstormProjects\nistkasten" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\mattacker\PhpstormProjects\nistkasten\.idea" />
+          <option name="myCopyRoot" value="C:\Users\mattacker\PhpstormProjects\nistkasten\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\mattacker\PhpstormProjects\nistkasten" />
+          <option name="myCopyRoot" value="C:\Users\mattacker\PhpstormProjects\nistkasten" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ca7b77b-94d7-480d-9804-01ee579f3674" name="Default" comment="" />
+      <created>1391254103918</created>
+      <updated>1391254103918</updated>
+    </task>
+    <task id="LOCAL-00001">
+      <created>1391496072106</created>
+      <updated>1391496072106</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1391498232105</created>
+      <updated>1391498232105</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1391498498105</created>
+      <updated>1391498498105</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1391498691105</created>
+      <updated>1391498691105</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1391499032104</created>
+      <updated>1391499032104</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1391501085105</created>
+      <updated>1391501085105</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1391502613104</created>
+      <updated>1391502613104</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1391514173104</created>
+      <updated>1391514173104</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1391514344102</created>
+      <updated>1391514344102</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1391515231102</created>
+      <updated>1391515231102</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1391515503102</created>
+      <updated>1391515503102</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1391518309102</created>
+      <updated>1391518309102</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1391518488102</created>
+      <updated>1391518488102</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1391518984102</created>
+      <updated>1391518984102</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1391583421139</created>
+      <updated>1391583421139</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1391585270105</created>
+      <updated>1391585270105</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1391585923105</created>
+      <updated>1391585923105</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1391591687105</created>
+      <updated>1391591687105</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1391591914105</created>
+      <updated>1391591914105</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1391593318105</created>
+      <updated>1391593318105</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1391593677108</created>
+      <updated>1391593677108</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1391595501105</created>
+      <updated>1391595501105</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1391595699105</created>
+      <updated>1391595699105</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1391597708105</created>
+      <updated>1391597708105</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1391598321105</created>
+      <updated>1391598321105</updated>
+    </task>
+    <task id="LOCAL-00026">
+      <created>1391598685105</created>
+      <updated>1391598685105</updated>
+    </task>
+    <task id="LOCAL-00027">
+      <created>1391598719105</created>
+      <updated>1391598719105</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1391598781105</created>
+      <updated>1391598781105</updated>
+    </task>
+    <task id="LOCAL-00029">
+      <created>1391680851108</created>
+      <updated>1391680851108</updated>
+    </task>
+    <task id="LOCAL-00030">
+      <created>1391712130113</created>
+      <updated>1391712130113</updated>
+    </task>
+    <task id="LOCAL-00031">
+      <created>1391723687106</created>
+      <updated>1391723687106</updated>
+    </task>
+    <task id="LOCAL-00032">
+      <created>1392675672107</created>
+      <updated>1392675672107</updated>
+    </task>
+    <task id="LOCAL-00033">
+      <created>1392676521105</created>
+      <updated>1392676521105</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1392677129105</created>
+      <updated>1392677129105</updated>
+    </task>
+    <task id="LOCAL-00035">
+      <created>1392677266105</created>
+      <updated>1392677266105</updated>
+    </task>
+    <task id="LOCAL-00036">
+      <created>1392677421105</created>
+      <updated>1392677421105</updated>
+    </task>
+    <task id="LOCAL-00037">
+      <created>1392678016105</created>
+      <updated>1392678016105</updated>
+    </task>
+    <task id="LOCAL-00038">
+      <created>1392678241106</created>
+      <updated>1392678241106</updated>
+    </task>
+    <task id="LOCAL-00039">
+      <created>1392712851258</created>
+      <updated>1392712851258</updated>
+    </task>
+    <task id="LOCAL-00040">
+      <created>1392713042105</created>
+      <updated>1392713042105</updated>
+    </task>
+    <task id="LOCAL-00041">
+      <created>1392713077108</created>
+      <updated>1392713077108</updated>
+    </task>
+    <task id="LOCAL-00042">
+      <created>1392714678105</created>
+      <updated>1392714678105</updated>
+    </task>
+    <task id="LOCAL-00043">
+      <created>1392714926102</created>
+      <updated>1392714926102</updated>
+    </task>
+    <task id="LOCAL-00044">
+      <created>1392715618105</created>
+      <updated>1392715618105</updated>
+    </task>
+    <task id="LOCAL-00045">
+      <created>1392715951105</created>
+      <updated>1392715951105</updated>
+    </task>
+    <task id="LOCAL-00046">
+      <created>1392717050105</created>
+      <updated>1392717050105</updated>
+    </task>
+    <task id="LOCAL-00047">
+      <created>1392717472106</created>
+      <updated>1392717472106</updated>
+    </task>
+    <task id="LOCAL-00048">
+      <created>1392819694191</created>
+      <updated>1392819694191</updated>
+    </task>
+    <task id="LOCAL-00049">
+      <created>1392827418106</created>
+      <updated>1392827418106</updated>
+    </task>
+    <task id="LOCAL-00050">
+      <created>1392827823105</created>
+      <updated>1392827823105</updated>
+    </task>
+    <task id="LOCAL-00051">
+      <created>1392829122105</created>
+      <updated>1392829122105</updated>
+    </task>
+    <task id="LOCAL-00052">
+      <created>1392829386105</created>
+      <updated>1392829386105</updated>
+    </task>
+    <task id="LOCAL-00053">
+      <created>1392829729105</created>
+      <updated>1392829729105</updated>
+    </task>
+    <task id="LOCAL-00054">
+      <created>1392829864105</created>
+      <updated>1392829864105</updated>
+    </task>
+    <task id="LOCAL-00055">
+      <created>1392839876105</created>
+      <updated>1392839876105</updated>
+    </task>
+    <task id="LOCAL-00056">
+      <created>1392840666105</created>
+      <updated>1392840666105</updated>
+    </task>
+    <task id="LOCAL-00057">
+      <created>1392840898105</created>
+      <updated>1392840898105</updated>
+    </task>
+    <task id="LOCAL-00058">
+      <created>1392843136105</created>
+      <updated>1392843136105</updated>
+    </task>
+    <task id="LOCAL-00059">
+      <created>1392843674106</created>
+      <updated>1392843674106</updated>
+    </task>
+    <task id="LOCAL-00060">
+      <created>1392843746105</created>
+      <updated>1392843746105</updated>
+    </task>
+    <task id="LOCAL-00061">
+      <created>1392844194105</created>
+      <updated>1392844194105</updated>
+    </task>
+    <task id="LOCAL-00062">
+      <created>1392845020106</created>
+      <updated>1392845020106</updated>
+    </task>
+    <task id="LOCAL-00063">
+      <created>1392845243105</created>
+      <updated>1392845243105</updated>
+    </task>
+    <task id="LOCAL-00064">
+      <created>1392846372107</created>
+      <updated>1392846372107</updated>
+    </task>
+    <task id="LOCAL-00065">
+      <created>1392846563105</created>
+      <updated>1392846563105</updated>
+    </task>
+    <task id="LOCAL-00066">
+      <created>1392846656103</created>
+      <updated>1392846656103</updated>
+    </task>
+    <task id="LOCAL-00067">
+      <created>1392846791105</created>
+      <updated>1392846791105</updated>
+    </task>
+    <task id="LOCAL-00068">
+      <created>1392847161105</created>
+      <updated>1392847161105</updated>
+    </task>
+    <task id="LOCAL-00069">
+      <created>1392847816105</created>
+      <updated>1392847816106</updated>
+    </task>
+    <task id="LOCAL-00070">
+      <created>1392848255105</created>
+      <updated>1392848255105</updated>
+    </task>
+    <task id="LOCAL-00071">
+      <created>1392848662106</created>
+      <updated>1392848662106</updated>
+    </task>
+    <task id="LOCAL-00072">
+      <created>1392849491105</created>
+      <updated>1392849491105</updated>
+    </task>
+    <task id="LOCAL-00073">
+      <created>1392850183105</created>
+      <updated>1392850183105</updated>
+    </task>
+    <task id="LOCAL-00074">
+      <created>1392850302102</created>
+      <updated>1392850302102</updated>
+    </task>
+    <task id="LOCAL-00075">
+      <created>1392850534105</created>
+      <updated>1392850534105</updated>
+    </task>
+    <task id="LOCAL-00076">
+      <created>1392885547182</created>
+      <updated>1392885547182</updated>
+    </task>
+    <task id="LOCAL-00077">
+      <created>1392893206164</created>
+      <updated>1392893206164</updated>
+    </task>
+    <task id="LOCAL-00078">
+      <created>1392894550105</created>
+      <updated>1392894550105</updated>
+    </task>
+    <task id="LOCAL-00079">
+      <created>1392895280105</created>
+      <updated>1392895280105</updated>
+    </task>
+    <task id="LOCAL-00080">
+      <created>1393255897170</created>
+      <updated>1393255897170</updated>
+    </task>
+    <task id="LOCAL-00081">
+      <created>1393261649106</created>
+      <updated>1393261649107</updated>
+    </task>
+    <task id="LOCAL-00082">
+      <created>1393505922107</created>
+      <updated>1393505922107</updated>
+    </task>
+    <task id="LOCAL-00083">
+      <created>1393506001105</created>
+      <updated>1393506001106</updated>
+    </task>
+    <task id="LOCAL-00084">
+      <created>1393506880106</created>
+      <updated>1393506880106</updated>
+    </task>
+    <task id="LOCAL-00085">
+      <created>1393507136106</created>
+      <updated>1393507136106</updated>
+    </task>
+    <task id="LOCAL-00086">
+      <created>1393515625106</created>
+      <updated>1393515625106</updated>
+    </task>
+    <task id="LOCAL-00087">
+      <created>1393516020105</created>
+      <updated>1393516020105</updated>
+    </task>
+    <task id="LOCAL-00088">
+      <created>1393516144105</created>
+      <updated>1393516144105</updated>
+    </task>
+    <task id="LOCAL-00089">
+      <created>1393517130105</created>
+      <updated>1393517130105</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24736843" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/home/livestream.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="48" selection-start="34543" selection-end="34543" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/IndexController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="38" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Picture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/adapters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/library/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="99229" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="49" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="25" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="3128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/FileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="38" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/livestream.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="48" selection-start="34543" selection-end="34543" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/IndexController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="38" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Picture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/adapters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/library/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="99229" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="63" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="25" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/livestream.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1738" selection-start="39" selection-end="1784" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="110" selection-start="34103" selection-end="34103" vertical-scroll-proportion="0.0" vertical-offset="717" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/IndexController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="25" selection-start="997" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Picture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/adapters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/library/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="99229" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/library/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="99229" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/socket.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.738526" vertical-offset="4845" max-vertical-offset="56661" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/library/bootstrap/css/navbar-fixed-top.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sails-mysql/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="719" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sails-mysql/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sails-mysql/lib/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="615" column="14" selection-start="18206" selection-end="18214" vertical-scroll-proportion="0.0" vertical-offset="9987" max-vertical-offset="10693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/adapters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/library/fancybox/jquery.fancybox-1.3.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="51" selection-start="809" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="19737" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/FileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="48" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.26190478" vertical-offset="0" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="42" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/timeline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="1" selection-start="3535" selection-end="3535" vertical-scroll-proportion="0.0" vertical-offset="2467" max-vertical-offset="3196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/livestream.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="73" selection-start="694" selection-end="694" vertical-scroll-proportion="0.6166667" vertical-offset="55" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="122" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-11.96" vertical-offset="296" max-vertical-offset="1683" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/PictureController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="3" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="3281">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="54" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="2618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/IndexController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="7" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/settings/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-18.4" vertical-offset="220" max-vertical-offset="1224">
+          <folding>
+            <marker date="1393505992895" expanded="true" signature="1204:1414" placeholder="{...}" />
+            <marker date="1393505992895" expanded="true" signature="1414:1611" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Picture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/SettingsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="21" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="103" selection-start="36302" selection-end="36302" vertical-scroll-proportion="-16.52" vertical-offset="1814" max-vertical-offset="4760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="19" selection-start="482" selection-end="482" vertical-scroll-proportion="0.5674891" vertical-offset="136" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

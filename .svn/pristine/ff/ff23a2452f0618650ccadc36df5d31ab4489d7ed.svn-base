@@ -1,0 +1,8 @@
+extends ../layout
+block body
+	div.container.marketing
+		div.row
+			div.col-md-12
+				h2.featurette-heading Live
+				div.text-center
+					img(src="http://#{serverIp}:8081", alt="...").img-thumbnail

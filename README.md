@@ -1,35 +1,35 @@
 nestingBox
 ==========
 
-****Beschreibung momentan im Aufbau****
+****Description currently under construction****
 
-Benötigte Teile
+Required components
 ----------
 
-Technische Ausstattung:
+Technical Equipment:
 - Raspberry Pi
-- Raspberry Pi NoIR Kamera Modul
-- USB WLAN Adapter oder LAN
-- Lochrasterplatine
-- Kabel
-- 4 IR-LED-Dioden + Widerstände
-- Makrolinse (+4) einer Digitalkamera (Close-Up Lense)
+- Raspberry Pi NoIR Camera Module
+- USB WLAN Adapter or LAN
+- Breadboard
+- cables
+- 4 IR-LED-Diode + resistors
+- Close-Up Lense (+4)
 
-Nistkasten:
-- Holz
-- Dachpappe
-- 2 Scharniere
-- Rundstab (ca. 6cm)
+Nesting box:
+- wooden boards
+- roofing felt
+- 2 hinges
+- round bar (approx. 6 cm)
 
-![Der fertige Nistkasten](https://www.dropbox.com/s/2a5m3znnd8yr316/IMG-20140306-WA0004.jpg "Der fertige Nistkasten")
+![The finished nest box](http://www.file-upload.net/download-8722357/IMG-20140306-WA0004.jpg.html "The finished nest box")
 
-Konfiguration Raspberry Pi
+Configuration Raspberry Pi
 ----------
 
 1. Installation Raspberry Pi OS - Raspbian Wheezy
-2. NoIR Kamera Modul anschließen und Kamera aktivieren
+2. Connect and activate NoIR Camera Module
 3. Installation Motion-MMAL (https://github.com/dozencrows/motion/blob/mmal-test/README)
-4. Konfiguration der Datenbank
-5. Installation der Sails.js Web-Anwendung
+4. Database configuration
+5. Installation Web-App nestingBox
 
  
