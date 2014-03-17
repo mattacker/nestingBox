@@ -37,9 +37,10 @@ npm-debug.log
 .netbeans
 nbproject
 .idea
+.svn
 
 
 ########################
 # local config
 ########################
-#config/local.js
+config/local.js
