@@ -1,0 +1,120 @@
+/**
+ * app.js
+ *
+ * This file contains some conventional defaults for working with Socket.io + Sails.
+ * It is designed to get you up and running fast, but is by no means anything special.
+ *
+ * Feel free to change none, some, or ALL of this file to fit your needs!
+ */
+
+
+(function (io) {
+
+  // as soon as this file is loaded, connect automatically, 
+  var socket = io.connect();
+  if (typeof console !== 'undefined') {
+    log('Connecting to Sails.js...');
+  }
+
+  console.log(socket.get('/picture', null));
+
+  socket.on('connect', function socketConnected() {
+
+    // Listen for Comet messages from Sails
+    socket.on('message', function messageReceived(message) {
+
+      ///////////////////////////////////////////////////////////
+      // Replace the following with your own custom logic
+      // to run when a new message arrives from the Sails.js
+      // server.
+      ///////////////////////////////////////////////////////////
+      log('New comet message received :: ', message);
+      //////////////////////////////////////////////////////
+        if(message.model == 'picture'){
+            if(message.verb == 'create'){
+                var child = '<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">' +
+                                '<a rel="imagegroup" href="/public/nistkasten/normal/'+message.data.filename+'" title="'+message.data.date+'">' +
+                                    '<img src="/public/nistkasten/thumbs/'+message.data.filename+'" class="img-responsive">' +
+                                '</a>' +
+                                '<div class="caption">' +
+                                    '<div>'+message.data.date+' <span class="label label-default">New</span>' +
+                                        '<a onclick="alert(\'speichern\');return false;" href="#">' +
+                                            '<span style="float:right" class="glyphicon glyphicon-floppy-disk"></span>' +
+                                        '</a>' +
+                                    '</div>' +
+                                '</div>' +
+                            '</div>';
+                console.log(child);
+                var timelineBody = $('#last-timeline-body');
+                var timestampOfLastImages = timelineBody.data('timestamp');
+                var currentTime = new Date().getTime();
+                var timeDifferenceHours = ( currentTime - timestampOfLastImages ) / 1000 / 60 / 60
+                if(timeDifferenceHours > 0) {
+                    $('#last-timeline-body').removeAttr('id')
+                    var timelineElement = '<li>' +
+                                            '<div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>' +
+                                            '<div class="timeline-panel">' +
+                                            '<div class="timeline-heading">' +
+                                            '<h4 class="timeline-title">Mussum ipsum cacilds</h4>' +
+                                            '<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> vor 1 Sekunde</small></p>' +
+                                            '</div>' +
+                                            '<div id="last-timeline-body" data-timestamp="'+currentTime+'" class="timeline-body">' +
+                                            '</div></div></li>';
+                    $('#timeline').prepend(timelineElement)
+                }
+                $('#last-timeline-body').prepend(child);
+                var elements = $('#images').find('.thumbnail')
+//                if(elements.length>12)
+//                    elements.last().remove()
+                $("a[rel=imagegroup]").fancybox({
+                    'transitionIn'		: 'elastic',
+                    'transitionOut'		: 'elastic',
+                    'titlePosition' 	: 'over',
+                    'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+                        return '<span id="fancybox-title-over">Aufnahme ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+                    }
+                });
+
+            }
+        }
+
+    });
+
+
+    ///////////////////////////////////////////////////////////
+    // Here's where you'll want to add any custom logic for
+    // when the browser establishes its socket connection to 
+    // the Sails.js server.
+    ///////////////////////////////////////////////////////////
+    log(
+        'Socket is now connected and globally accessible as `socket`.\n' + 
+        'e.g. to send a GET request to Sails, try \n' + 
+        '`socket.get("/", function (response) ' +
+        '{ console.log(response); })`'
+    );
+    ///////////////////////////////////////////////////////////
+
+
+  });
+
+
+  // Expose connected `socket` instance globally so that it's easy
+  // to experiment with from the browser console while prototyping.
+  window.socket = socket;
+
+
+  // Simple log function to keep the example simple
+  function log () {
+    if (typeof console !== 'undefined') {
+      console.log.apply(console, arguments);
+    }
+  }
+  
+
+})(
+
+  // In case you're wrapping socket.io to prevent pollution of the global namespace,
+  // you can replace `window.io` with your own `io` here:
+  window.io
+
+);

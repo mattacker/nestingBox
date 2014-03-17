@@ -21,7 +21,7 @@ Nesting box:
 - 2 hinges
 - round bar (approx. 6 cm)
 
-![The finished nest box](http://www.file-upload.net/download-8722357/IMG-20140306-WA0004.jpg.html "The finished nest box")
+![The finished nest box](http://s27.postimg.org/c3g7s1ooz/IMG_20140306_WA0004.jpg "The finished nest box")
 
 Configuration Raspberry Pi
 ----------

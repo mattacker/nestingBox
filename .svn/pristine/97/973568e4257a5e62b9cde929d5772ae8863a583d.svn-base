@@ -1,0 +1,44 @@
+#!/bin/bash
+zeit=$(date +%Y-%m-%d-%H-%M)
+
+dbquery=$(mysql -u root -e "use nistkasten; select filename from picture WHERE isBackuped = 0 AND file_type = 8")
+array=( $( for i in $dbquery ; do echo $i ; done ) )
+
+cnt=${#array[@]}
+for (( i=1 ; i<cnt ; i++ ))
+do 
+	cp /home/pi/nistkasten/public/birdimage/normal/${array[$i]}.ogv /home/pi/backup/zipfolder/${array[$i]}.ogv
+	echo "Video zum Backupordner hinzufuegen $i: ${array[$i]}" >> /var/log/nistkasten.log
+done
+
+if (($cnt > 0))
+then
+	cd /home/pi/backup/zipfolder
+	zip /home/pi/backup/backup_$zeit.zip ./*
+	wput /home/pi/backup/backup_$zeit.zip ftp://nistkasten@mkrams.de:kuchensamstag07@ftp.mkrams.de/backup_video_$zeit.zip -B
+	if [[ $? != 0 ]]; then
+	  echo "Transfer failed!" >> /var/log/nistkasten.log
+	  exit 1
+	else
+	  echo "Transfer ueber FTP fertiggestellt." >> /var/log/nistkasten.log
+		string=""
+		for (( i=1 ; i<cnt ; i++ ))
+		do
+	        	if(($i==1))
+			then
+				string="filename LIKE '${array[$i]}'"
+			else
+				string+=" OR filename LIKE '${array[$i]}'"
+			fi
+	    	done
+		mysql -u root -e "use nistkasten; UPDATE picture SET isBackuped = 1 WHERE ($string) AND file_type = 8"
+		if [[ $? != 0 ]]; then
+	        	echo "Backup failed by MySQL saveing!" >> /var/log/nistkasten.log
+          	else
+			rm /home/pi/backup/backup_$zeit.zip
+		fi
+		rm /home/pi/backup/zipfolder/*
+	fi
+else
+	echo "Keine neuen Videos fuer eine Sicherung verfuegbar" >> /var/log/nistkasten.log
+fi

@@ -1,0 +1,54 @@
+/**
+ * Bootstrap
+ *
+ * An asynchronous boostrap function that runs before your Sails app gets lifted.
+ * This gives you an opportunity to set up your data model, run jobs, or perform some special logic.
+ *
+ * For more information on bootstrapping your app, check out:
+ * http://sailsjs.org/#documentation
+ */
+var passport = require('passport')
+    , LocalStrategy = require('passport-local').Strategy
+    ,initialize = passport.initialize()
+    ,session = passport.session()
+    ,http = require('http')
+    ,methods = ['isLoggedIn'];;
+
+var user = {
+    id: 1,
+    username: 'olli'
+}
+
+module.exports.bootstrap = function (cb) {
+
+  // It's very important to trigger this callack method when you are finished
+  // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
+
+//    passport.serializeUser(function(user, done) {
+//        done(null, user.id);
+//    });
+//
+//    passport.deserializeUser(function(id, done) {
+//        done(null, user);
+//    });
+
+
+
+//    sails.removeAllListeners('router:request');
+//    sails.on('router:request', function(req, res) {
+//        initialize(req, res, function () {
+//            session(req, res, function (err) {
+//                if (err) {
+//                    return sails.config[500](500, req, res);
+//                }
+//                for (var i = 0; i < methods.length; i++) {
+//                    console.log(http.IncomingMessage.prototype[methods[i]]);
+//                    req[methods[i]] = http.IncomingMessage.prototype[methods[i]].bind(req);
+//                }
+//                sails.router.route(req, res);
+//            });
+//        });
+//    });
+
+  cb();
+};
