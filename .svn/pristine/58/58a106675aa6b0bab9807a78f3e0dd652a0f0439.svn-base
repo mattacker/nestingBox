@@ -1,7 +1,0 @@
-.thumbnail{
-    margin-right: 5px;
-}
-
-.thumbnail:last-of-type{
-    margin-right: 0px;
-}
