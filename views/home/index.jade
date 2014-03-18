@@ -41,7 +41,7 @@ block body
 					- var days = hours/24
 					- var timeString
 					if days>=1
-						if days==1
+						if Math.floor(days)==1
 							- timeString = 'gestern'
 						else
 							- timeString = 'vor ' + Math.floor(days) + ' Tagen'
