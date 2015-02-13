@@ -7,8 +7,8 @@
  * for configuration options on the server where it will be deployed.
  *
  *
- * PLEASE NOTE: 
- *		This file is included in your .gitignore, so if you're using git 
+ * PLEASE NOTE:
+ *		This file is included in your .gitignore, so if you're using git
  *		as a version control solution for your Sails app, keep in mind that
  *		this file won't be committed to your repository!
  *
@@ -34,6 +34,7 @@ module.exports = {
         port: 8080
     },
     serverIp: '192.168.1.2',
+    externalServerAddress: 'myDns.dyndns.com',
     // The `port` setting determines which TCP port your app will be deployed on
     // Ports are a transport-layer concept designed to allow many different
     // networking applications run at the same time on a single computer.

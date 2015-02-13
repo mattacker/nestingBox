@@ -6,8 +6,7 @@ block body
 			h2 Live
 			div#alertContainer
 			div.text-center
-				//img(src="http://#{serverIp}:8081", alt="...").img-thumbnail
-				img(src="http://meisenhaus.dlinkddns.com:8081", alt="...").img-thumbnail
+				img(src="http://#{externalServerAddress}:8081", alt="...").img-thumbnail
 		div(style="padding-top:20px;").col-md-2
 			if(req.user)
 				button(type="button", onclick="snapshot()").btn.btn-danger Bild speichern
