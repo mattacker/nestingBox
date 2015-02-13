@@ -1,5 +1,6 @@
 #!/bin/bash
 zeit=$(date +%Y-%m-%d-%H-%M)
+BASE_PATH = /home/pi/nistkasten
 
 dbquery=$(mysql -u root -e "use nistkasten; select filename from picture WHERE isBackuped = 0 AND file_type = 8")
 array=( $( for i in $dbquery ; do echo $i ; done ) )
@@ -7,15 +8,15 @@ array=( $( for i in $dbquery ; do echo $i ; done ) )
 cnt=${#array[@]}
 for (( i=1 ; i<cnt ; i++ ))
 do 
-	cp /home/pi/nistkasten/public/birdimage/normal/${array[$i]}.ogv /home/pi/nistkasten/bashscripts/backup_video/zipfolder/${array[$i]}.ogv
+	cp $BASE_PATH/public/birdimage/normal/${array[$i]}.ogv $BASE_PATH/bashscripts/backup_video/zipfolder/${array[$i]}.ogv
 	echo "Video zum Backupordner hinzufuegen $i: ${array[$i]}" >> /var/log/nistkasten.log
 done
 
 if (($cnt > 0))
 then
-	cd /home/pi/nistkasten/bashscripts/backup_video/zipfolder
-	zip /home/pi/nistkasten/bashscripts/backup_video/backup_$zeit.zip ./*
-	wput /home/pi/nistkasten/bashscripts/backup_video/backup_$zeit.zip ftp://$2:$3@$1/backup_video_$zeit.zip -B
+	cd $BASE_PATH/bashscripts/backup_video/zipfolder
+	zip $BASE_PATH/bashscripts/backup_video/backup_$zeit.zip ./*
+	wput $BASE_PATH/bashscripts/backup_video/backup_$zeit.zip ftp://$2:$3@$1/backup_video_$zeit.zip -B
 	if [[ $? != 0 ]]; then
 	  echo "Transfer failed!" >> /var/log/nistkasten.log
 	  exit 2
@@ -35,9 +36,9 @@ then
 		if [[ $? != 0 ]]; then
 	        	echo "Backup failed by MySQL saveing!" >> /var/log/nistkasten.log
           	else
-			rm /home/pi/nistkasten/bashscripts/backup_video/backup_$zeit.zip
+			rm $BASE_PATH/bashscripts/backup_video/backup_$zeit.zip
 		fi
-		rm /home/pi/nistkasten/bashscripts/backup_video/zipfolder/*
+		rm $BASE_PATH/bashscripts/backup_video/zipfolder/*
 		exit 0
 	fi
 else
